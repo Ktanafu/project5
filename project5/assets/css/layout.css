@@ -1,0 +1,35 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row::after{
+    content: '';
+    display:block ;
+    clear: both;
+}
+
+.col-6{
+
+    float: left;
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.col-4{
+float: left;
+width: 33.33%;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.col-3{
+float: left;
+width: 25%;
+padding-left: 5px;
+ padding-right: 5px;
+
+}
